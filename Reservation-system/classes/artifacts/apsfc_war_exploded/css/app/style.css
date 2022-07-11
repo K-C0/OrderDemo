@@ -4283,6 +4283,36 @@ img.w3order-img {
 .banner-text h2 span { 
     font-size: .9em;
 }
+
+.voice-box input {
+    box-sizing   : border-box;
+    padding      : 10px;
+    width        : auto;
+
+    height       : 120px;
+    font-weight: bold;
+    font-size    : 20px;
+    color        : #187cff;
+    border       : 1px solid #187cff;
+    border-radius: 3px 0px 0px 3px;
+ }
+
+.voice-box button {
+        width        : 30%;
+        height       : 50px;
+        line-height  : 50px;
+        font-size    : 18px;
+        color        : white;
+        background   : #187cff;
+        border       : none;
+        border-radius: 0px 3px 3px 0px;
+        cursor       : pointer;
+}
+
+
+
+
+
 }
 /*-- //responsive-design --*/
 

@@ -31,7 +31,8 @@ public class ServletContextLister implements ServletContextListener {
 	/**
      * @see ServletContextListener#contextInitialized(ServletContextEvent)
      */
-    public void contextInitialized(ServletContextEvent event)  { 
+    public void contextInitialized(ServletContextEvent event)  {
+
     	  ServletContext  servletContext = event.getServletContext();
           //上传图片到项目目录，只保存上传后的图片地址到数据库
             String  filePath = servletContext.getRealPath("/images/app/food");
@@ -40,7 +41,10 @@ public class ServletContextLister implements ServletContextListener {
    		
    		//根据路径创建file
    		File file = new File(filePath);
-   		if(!file.exists()) {
+		System.out.println("@@@@@@@@@"+file.getPath());
+
+		if(!file.exists()) {
+
    			//如果文件不存在，就创建
    			file.mkdirs();
    			System.out.println("========项目启动，创建文件夹====");
