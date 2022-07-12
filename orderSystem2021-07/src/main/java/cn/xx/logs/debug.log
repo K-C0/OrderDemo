@@ -1,0 +1,224 @@
+2022-07-12 09:21:53 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean >> Method: com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean.reinitialize(DynamicPooledDataSourceManagerMBean.java:236) ]
+DEBUG:MBean: com.mchange.v2.c3p0:type=PooledDataSource[2vqwf4ap1ul9z0013xctrt|437da279] registered.
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 1
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 2
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 3
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 4
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 5
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 6
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 7
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 8
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 9
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 10
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.<init>(BasicResourcePool.java:289) ]
+DEBUG:com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 config: [start -> 3; min -> 10; max -> 30; inc -> 3; num_acq_attempts -> 2; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 31536000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2vqwf4ap1ul9z0013xctrt|437da279, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2vqwf4ap1ul9z0013xctrt|437da279, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ordersystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:538) ]
+DEBUG:acquire test -- pool size: 0; target_pool_size: 10; desired target? 1
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1291) ]
+DEBUG:awaitAvailable(): [unknown]
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 0, unused: 0, excluded: 0]
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 1, unused: 1, excluded: 0]
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 2, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 9
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 8
+2022-07-12 09:21:56 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 7
+2022-07-12 09:21:56 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 4, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 6
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 5, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 5
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 6, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 4
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 7, unused: 5, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 8, unused: 6, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 3
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 9, unused: 7, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 2
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 1
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@3da34aff.acquireResource() returning. 
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:21:56 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 0
+2022-07-12 09:21:56 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@4ed5eb72 [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@42a471)
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:14) ]
+ERROR:Did it again!
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:15) ]
+INFO:我是info信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:16) ]
+DEBUG:我是debug信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:17) ]
+WARN:我是warn信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:18) ]
+FATAL:我是fatal信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:19) ]
+DEBUG:我是debug信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:22) ]
+ERROR:hello
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:22) ]
+ERROR:hello
+2022-07-12 09:22:39 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2022-07-12 09:22:39 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2022-07-12 09:22:39 上午 [Thread: main][ Class:com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean >> Method: com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean.reinitialize(DynamicPooledDataSourceManagerMBean.java:236) ]
+DEBUG:MBean: com.mchange.v2.c3p0:type=PooledDataSource[2vqwf4ap1ulaxzlxhkr2k|4dbb42b7] registered.
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 1
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 2
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 3
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 4
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 5
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 6
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 7
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 8
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 9
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.incrementPendingAcquires(BasicResourcePool.java:404) ]
+DEBUG:incremented pending_acquires: 10
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.<init>(BasicResourcePool.java:289) ]
+DEBUG:com.mchange.v2.resourcepool.BasicResourcePool@73194df config: [start -> 3; min -> 10; max -> 30; inc -> 3; num_acq_attempts -> 2; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 31536000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2vqwf4ap1ulaxzlxhkr2k|4dbb42b7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2vqwf4ap1ulaxzlxhkr2k|4dbb42b7, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ordersystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:538) ]
+DEBUG:acquire test -- pool size: 0; target_pool_size: 10; desired target? 1
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1291) ]
+DEBUG:awaitAvailable(): [unknown]
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 0, unused: 0, excluded: 0]
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 1, unused: 1, excluded: 0]
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 2, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 9
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 8
+2022-07-12 09:22:41 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 7
+2022-07-12 09:22:41 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 4, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 6
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 5, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 5
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 6, unused: 4, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 4
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 7, unused: 5, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 3
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 8, unused: 6, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 2
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 9, unused: 7, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 1
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool >> Method: com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:217) ]
+DEBUG:com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@4574ac1.acquireResource() returning. 
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)
+2022-07-12 09:22:41 上午 [Thread: com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.decrementPendingAcquires(BasicResourcePool.java:422) ]
+DEBUG:decremented pending_acquires: 0
+2022-07-12 09:22:41 上午 [Thread: main][ Class:com.mchange.v2.resourcepool.BasicResourcePool >> Method: com.mchange.v2.resourcepool.BasicResourcePool.trace(BasicResourcePool.java:1644) ]
+DEBUG:trace com.mchange.v2.resourcepool.BasicResourcePool@73194df [managed: 10, unused: 9, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@361c344b)

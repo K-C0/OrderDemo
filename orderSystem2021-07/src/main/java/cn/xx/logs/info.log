@@ -1,0 +1,24 @@
+2022-07-12 09:21:53 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2022-07-12 09:21:54 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 31536000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2vqwf4ap1ul9z0013xctrt|437da279, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2vqwf4ap1ul9z0013xctrt|437da279, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ordersystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:14) ]
+ERROR:Did it again!
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:15) ]
+INFO:我是info信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:17) ]
+WARN:我是warn信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:18) ]
+FATAL:我是fatal信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:22) ]
+ERROR:hello
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:22) ]
+ERROR:hello
+2022-07-12 09:22:39 上午 [Thread: main][ Class:com.mchange.v2.log.MLog >> Method: com.mchange.v2.log.MLog.<clinit>(MLog.java:80) ]
+INFO:MLog clients using log4j logging.
+2022-07-12 09:22:39 上午 [Thread: main][ Class:com.mchange.v2.c3p0.C3P0Registry >> Method: com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204) ]
+INFO:Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2022-07-12 09:22:40 上午 [Thread: main][ Class:com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource >> Method: com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getPoolManager(AbstractPoolBackedDataSource.java:462) ]
+INFO:Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 2, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 31536000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2vqwf4ap1ulaxzlxhkr2k|4dbb42b7, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.cj.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2vqwf4ap1ulaxzlxhkr2k|4dbb42b7, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/ordersystem?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 30, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]

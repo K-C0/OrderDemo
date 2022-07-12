@@ -1,0 +1,4 @@
+[ERROR][2022-07-12 09:10:02][com.nchu.order.test.Log4j2Test-main] Did it again!
+[FATAL][2022-07-12 09:10:02][com.nchu.order.test.Log4j2Test-main] 我是fatal信息
+[ERROR][2022-07-12 09:10:02][com.nchu.order.test.Log4j2Test-main] hello
+[ERROR][2022-07-12 09:10:02][com.nchu.order.test.Log4j2Test-main] hello

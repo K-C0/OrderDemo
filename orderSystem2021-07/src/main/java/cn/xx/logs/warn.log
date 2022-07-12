@@ -1,0 +1,10 @@
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:14) ]
+ERROR:Did it again!
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:17) ]
+WARN:我是warn信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:18) ]
+FATAL:我是fatal信息
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:22) ]
+ERROR:hello
+2022-07-12 09:22:25 上午 [Thread: main][ Class:com.nchu.order.test.Log4j2Test >> Method: com.nchu.order.test.Log4j2Test.main(Log4j2Test.java:22) ]
+ERROR:hello
