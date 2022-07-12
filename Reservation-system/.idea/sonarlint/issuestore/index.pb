@@ -16,8 +16,6 @@ L
 WebContent/public/bottom.jsp,8\6\86982df50a24cfb7961a46dec5db50b5d5e9f8d2
 D
 WebContent/index.jsp,9\e\9e989567b25a37b382d6c0a7a2b4ae4bb7937d5a
-Q
-!WebContent/js/jquery-2.2.3.min.js,a\1\a14a2cba5e4275cc74adb57daa4fd3eda7ceb52a
 d
 4src/org/wdl/hotelAppTest/dao/DinnerTableDaoImpl.java,1\d\1d6355cf7432d907cab97a13945c90c55244d55c
 l

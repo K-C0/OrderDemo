@@ -4284,6 +4284,7 @@ img.w3order-img {
     font-size: .9em;
 }
 
+/*  语音识别 控件布局  */
 .voice-box input {
     box-sizing   : border-box;
     padding      : 10px;

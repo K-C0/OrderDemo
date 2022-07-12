@@ -50,7 +50,7 @@
 
 
 
-		///////////
+		//   增加《语音识别》功能
 		const voiceTxt = document.querySelector('#voice-txt');
 		const startBtn = document.querySelector('#start-btn');
 		const closeBtn = document.querySelector('#close-btn');
