@@ -96,7 +96,7 @@ public class OrderServlet extends HttpServlet {
 			
 			System.out.println("order改后："+order);
 
-
+			// 支付界面 --session调用 总价格 和 订单号
 			HttpSession session = request.getSession();
 			session.setAttribute("totalMoney",order.getTotalPrice());
 			session.setAttribute("orderName",order.getOrderCode());
@@ -105,6 +105,8 @@ public class OrderServlet extends HttpServlet {
 			request.setAttribute("totalMoney",order.getTotalPrice());
 			request.setAttribute("orderName",order.getOrderCode());
 			orderService.pay(order);
+
+			//response.sendRedirect是请求链断开的跳转，不能在下一个servlet或jsp中获取保存在request中的数据
 
 //			response.sendRedirect(getServletContext().getContextPath()+"/app/alipay.trade.page.pay");
 			request.getRequestDispatcher("/WEB-INF/jsp/app/alipay.trade.page.pay.jsp").forward(request, response);

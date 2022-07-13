@@ -63,11 +63,7 @@ public class OrderServiceImpl implements OrderService {
 	@Override
 	public void pay(Order order) {
 
-
-//		ModelAndView mv = new ModelAndView();
-
 		System.out.println(order);
-
 
 		orderDao.pay(order);
 	}
