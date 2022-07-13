@@ -42,3 +42,11 @@ Y
 -src/org/wdl/hotelAppTest/dao/FoodDaoImpl.java,5\b\5b8fb54a0c7a87f570e0f42927bdd92d6b4dadc1
 ]
 -src/org/wdl/hotelAppTest/dao/FoodTypeDao.java,3\a\3aa252a17e5ed2bb676a313c0c74a9b30d1be788
+T
+$WebContent/WEB-INF/jsp/app/index.jsp,0\1\01fb4347755716cf964db0ecc5a2a3f217ffc973
+D
+WebContent/index.jsp,9\e\9e989567b25a37b382d6c0a7a2b4ae4bb7937d5a
+e
+5src/org/wdl/hotelAppTest/servlet/MenuListServlet.java,5\b\5bea09b7bd60b7bddb67a30dba01f961b9c7c619
+i
+9src/org/wdl/hotelAppTest/service/FoodTypeServiceImpl.java,6\f\6f8dd99af6d10552643adf1f0bd033a5e5f3bb2a

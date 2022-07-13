@@ -28,8 +28,8 @@
 //	//商品描述，可空
 //	String body = new String(request.getParameter("WIDbody").getBytes("ISO-8859-1"),"UTF-8");
 
-//String out_trade_no = (String) session.getAttribute("orderName");//订单号
-String out_trade_no ="12312332";
+String out_trade_no = (String) session.getAttribute("orderName");//订单号
+//String out_trade_no ="12312332";
 String total_amount = session.getAttribute("totalMoney").toString();//总钱数
 String  subject = "艾萨克";//食物
 String body = "为您服务";
