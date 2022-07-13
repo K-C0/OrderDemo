@@ -11,6 +11,7 @@
 <!-- Custom Theme files -->
 <!-- regex.js是正则表达式的一系列判断 -->
 <script type=text/javascript src="${pageContext.request.contextPath}/js/regex.js"></script>
+
 <script type="text/javascript">
 	$(function(){
 		//不同意协议  注册提交按钮为灰无法使用
@@ -27,72 +28,113 @@
 	        }
 	    });
 	});
-	
-	function  formOnblur(id){
-		//获取当前需要校验的输入框的值
-		var  fieldValue = document.getElementById(id).value;
-		document.getElementById(id+"_error").innerHTML="";
-		var flag = true;
-		if(id == "loginName"){
-			if(fieldValue == null || fieldValue == ""){
-				document.getElementById(id+"_error").innerHTML="请输入登录名！";
-				flag = false;
-			}else{
-				//校验登录名是否已经在数据库存在
-				$.ajax({
-				   type: "POST",
-				   url: "${pageContext.request.contextPath}/app/register.do",
-				   data: "method=ajaxLoginName&loginName="+fieldValue,
-				   //同步请求
-				   async:false,  
-				   success: function(msg){
-				     	if(msg){
-				     		document.getElementById(id+"_error").innerHTML=msg;
-				     		flag = false;
-				     	}
-				   }
-				});
+
+	$(function() {
+		// 在键盘按下并释放及提交后验证提交表单
+		$("#registerform").validate({
+			rules: {
+				phone: "required",
+				readme: "required",
+				loginName: {
+					required: true,
+					minlength: 2
+				},
+				password: "required",
+				okPassWord: {
+					required: true,
+					equalTo: "#password"
+				},
+				email: {
+					required: true,
+					email: true
+				},
+			},
+			messages: {
+				phone: "请输入手机号码",
+				readme: "请先阅读用户协议",
+				username: {
+					required: "请输入用户名!",
+					minlength: "该用户名已存在!"
+				},
+				password:"请输入密码",
+				okPassWord: {
+					required: "请输入密码",
+					equalTo: "两次密码输入不一致"
+				},
+				email: "请输入一个正确的邮箱",
+				agree: "请接受我们的声明",
+				topic: "请选择两个主题"
 			}
-		}else if(id == "phone"){
-			if(fieldValue == null || fieldValue == ""){
-				document.getElementById(id+"_error").innerHTML="请输入电话号码！";
-				flag = false;
-			}else{
-				if(!checkPhone(fieldValue)){
-					document.getElementById(id+"_error").innerHTML="您输入的电话号码不合法！";
-					flag = false;
-				}
-			}
-		}else if(id == "email"){
-			if(fieldValue == null || fieldValue == ""){
-				document.getElementById(id+"_error").innerHTML="请输入邮箱地址！！";
-				flag = false;
-			}else{
-				if(!checkEmail(fieldValue)){
-					document.getElementById(id+"_error").innerHTML="您输入的邮箱不合法！";
-					flag = false;
-				}
-			}
-		}else if(id == "passWord"){
-			if(fieldValue == null || fieldValue == ""){
-				flag = false;
-				document.getElementById(id+"_error").innerHTML="请输入6-16位英文或数字组成的密码！";
-			}else{
-				if(!checkPassword(fieldValue)){
-					flag = false;
-					document.getElementById(id+"_error").innerHTML="您输入的密码不合法！";
-				}
-			}
-		}else if(id == "okPassWord"){
-			if(fieldValue == null || fieldValue == "" ||
-					$("#passWord").val() == null  || $("#passWord").val() == "" ||
-					$("#passWord").val() != fieldValue){
-				flag = false;
-				document.getElementById(id+"_error").innerHTML="两次输入的密码不能为空，且必须一致！";
-			}
-		}
-		return flag;
-	}
+		})
+	});
+
+
+
+	<%--function  formOnblur(id){--%>
+	<%--	//获取当前需要校验的输入框的值--%>
+	<%--	var  fieldValue = document.getElementById(id).value;--%>
+	<%--	document.getElementById(id+"_error").innerHTML="";--%>
+	<%--	var flag = true;--%>
+	<%--	if(id == "loginName"){--%>
+	<%--		if(fieldValue == null || fieldValue == ""){--%>
+	<%--			document.getElementById(id+"_error").innerHTML="请输入登录名！";--%>
+	<%--			flag = false;--%>
+	<%--		}else{--%>
+	<%--			//校验登录名是否已经在数据库存在--%>
+	<%--			$.ajax({--%>
+	<%--			   type: "POST",--%>
+	<%--			   url: "${pageContext.request.contextPath}/app/register.do",--%>
+	<%--			   data: "method=ajaxLoginName&loginName="+fieldValue,--%>
+	<%--			   //同步请求--%>
+	<%--			   async:false,  --%>
+	<%--			   success: function(msg){--%>
+	<%--			     	if(msg){--%>
+	<%--			     		document.getElementById(id+"_error").innerHTML=msg;--%>
+	<%--			     		flag = false;--%>
+	<%--			     	}--%>
+	<%--			   }--%>
+	<%--			});--%>
+	<%--		}--%>
+	<%--	}else if(id == "phone"){--%>
+	<%--		if(fieldValue == null || fieldValue == ""){--%>
+	<%--			document.getElementById(id+"_error").innerHTML="请输入电话号码！";--%>
+	<%--			flag = false;--%>
+	<%--		}else{--%>
+	<%--			if(!checkPhone(fieldValue)){--%>
+	<%--				document.getElementById(id+"_error").innerHTML="您输入的电话号码不合法！";--%>
+	<%--				flag = false;--%>
+	<%--			}--%>
+	<%--		}--%>
+	<%--	}else if(id == "email"){--%>
+	<%--		if(fieldValue == null || fieldValue == ""){--%>
+	<%--			document.getElementById(id+"_error").innerHTML="请输入邮箱地址！！";--%>
+	<%--			flag = false;--%>
+	<%--		}else{--%>
+	<%--			if(!checkEmail(fieldValue)){--%>
+	<%--				document.getElementById(id+"_error").innerHTML="您输入的邮箱不合法！";--%>
+	<%--				flag = false;--%>
+	<%--			}--%>
+	<%--		}--%>
+	<%--	}else if(id == "passWord"){--%>
+	<%--		if(fieldValue == null || fieldValue == ""){--%>
+	<%--			flag = false;--%>
+	<%--			document.getElementById(id+"_error").innerHTML="请输入6-16位英文或数字组成的密码！";--%>
+	<%--		}else{--%>
+	<%--			if(!checkPassword(fieldValue)){--%>
+	<%--				flag = false;--%>
+	<%--				document.getElementById(id+"_error").innerHTML="您输入的密码不合法！";--%>
+	<%--			}--%>
+	<%--		}--%>
+	<%--	}else if(id == "okPassWord"){--%>
+	<%--		if(fieldValue == null || fieldValue == "" ||--%>
+	<%--				$("#passWord").val() == null  || $("#passWord").val() == "" ||--%>
+	<%--				$("#passWord").val() != fieldValue){--%>
+	<%--			flag = false;--%>
+	<%--			document.getElementById(id+"_error").innerHTML="两次输入的密码不能为空，且必须一致！";--%>
+	<%--		}--%>
+	<%--	}--%>
+	<%--	return flag;--%>
+	<%--}--%>
 	
 	function onRegister(){
 		//获取所有输入框的ID

@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ò¸âóùÿÿÿÿ
+\
+java:S1858"F"sql" is already a string, there's no need to call "toString()" on it.(¸Åàõ
+A
+java:S1168="+Return an empty collection instead of null.(¥¹ï
+\
+java:S1858M"F"sql" is already a string, there's no need to call "toString()" on it.(¸Åàõ
